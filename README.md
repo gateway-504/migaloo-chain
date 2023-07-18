@@ -6,66 +6,61 @@
 
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7139/badge)](https://bestpractices.coreinfrastructure.org/projects/7139)
 
-Migaloo Chain is the home of the White Whale.
+Migaloo Chain adalah rumah bagi paus putih.
 
-This chain began as a fork of wasmd, and is an exploration into better CosmWasm enabled chain templates that more
-rigorously follow upstream standards. It began as the wasmd repository, and we're hoping that it will end up as a
-feather/ignite/whatever template.
+Chain ini bermula dari forknya wasmd, dan merupakan eksplorasi ke dalam template rantai berkemampuan CosmWasm yang lebih ketat mengikuti standar hulu. Ini dimulai sebagai repositori wasmd, dan kami berharap ini akan berakhir sebagai perhiasan/penyala/templat apa pun.
+## Informasi Berguna
 
-## Helpful Information
+Testnet kami memiliki Alliance di dalamnya, tetapi mainnet kami tidak akan memiliki alliance sampai ada rilis yang lebih stabil dari <https://github.com/terra-money/alliance>.
 
-Our testnet has Alliance on it, but our mainnet won't have alliance until there's a more-stable release from <https://github.com/terra-money/alliance>.
+Karena itu, percabangan seperti:
 
-Because of this, branching is like:
+* `release/v1.0.x` adalah ujung cabang mainnet, dan mencerminkan status mainnet yang berfungsi hingga peluncuran v2
+* `release/v2.0.x` adalah ujung cabang untuk v2, yang memungkinkan alliance.
+* `release/v3.0.x` adalah cabang pengembangan saat ini, yang akan menambahkan kait osmosis ibc, async-icq, dan peningkatan ke ibc v7, sdk 47, cometbft 37, dan wasmd v0.40.0
 
-
-* `release/v1.0.x` is the tip of the mainnet branch, and reflects working mainnet state until the launch of v2
-* `release/v2.0.x` is the tip of the branch for v2, which enables alliance.
-* `release/v3.0.x` is rhe current development branch, which will add osmosis ibc hooks, async-icq, and upgrades to ibc v7, sdk 47, cometbft 37, and wasmd v0.40.0
-
-## Resources
-
+## Sumber Sumber
+CONTRIBUTING GUIDE]
 1. [Website](https://migaloo.zone)
-2. [LitePaper]() - Coming Soon
-3. [Docs]( https://docs.migaloo.zone/) - Coming Soon
+2. [LitePaper]() - Akan Datang
+3. [Docs]( https://docs.migaloo.zone/) - Akan Datang
 4. [Roadmap](./docs/ROADMAP.md)
 5. [Discord](https://discord.com/channels/908044702794801233/1069611972053712947)
 6. [Twitter](https://twitter.com/WhiteWhaleDefi)
 7. [Telegram](https://t.me/whitewhaleofficial)
 
-## System Requirements
+## Persyaratan Sistem 
 
-* Operating System: Linux or macOS
-* Disk Space: At least 100GB of free space is recommended.
-* CPU: Multi-core processor, 4+ cores recommended
-* RAM: 8GB+ recommended
-* Network: Good internet connectivity
+* Sistem Operasi: Linux atau macOS
+* Ruang disk: Setidaknya 100GB ruang bebas yang disarankan
+* CPU: Multi-core processor, 4+ cores disarankan
+* RAM: 8GB+ disarankan
+* Jaringan: disarankan internet yang bagus
 
-## Quick start
+## Mulai cepat
 
-Requires [Go 1.20](https://go.dev/doc/install) or higher.
+Membutuhkan [Go 1.20](https://go.dev/doc/install) atau lebih tinggi.
 
 ```bash
 make install
 migalood version
 ```
 
-## Contributing
+## kontribusi
 
-[Contributing Guide](./docs/CONTRIBUTING.md)
+[PANDUAN KONTRIBUSI](./docs/CONTRIBUTING.md)
 
-[Code of Conduct](./docs/CODE_OF_CONDUCT.md)
+[Kode etik](./docs/CODE_OF_CONDUCT.md)
 
-[Security Policies and Procedures](./docs/SECURITY.md)
+[Kebijakan dan Prosedur Keamanan](./docs/SECURITY.md)
 
-[License](./LICENSE)
+[Lisensi](./LICENSE)
 
-## Learn More
+## Tau lebih banyak
+* [Protokol White Whale](https://whitewhale.money/)
+* [Dokumentasi Cosmos SDK](https://docs.cosmos.network/)
+* [Tutorial Cosmos SDK](https://tutorials.cosmos.network/)
 
-* [White Whale Protocol](https://whitewhale.money/)
-* [Cosmos SDK documentation](https://docs.cosmos.network/)
-* [Cosmos SDK Tutorials](https://tutorials.cosmos.network/)
+## Penafian
 
-## Disclaimer
-
-**Migaloo software is offered "as is", with the understanding that the user assumes all risks and no guarantees or warranties are provided.**
+**Perangkat lunak Migaloo ditawarkan "sebagaimana adanya", dengan pemahaman bahwa pengguna menanggung semua risiko dan tidak ada jaminan atau jaminan yang diberikan.**
